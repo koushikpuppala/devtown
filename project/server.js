@@ -32,7 +32,7 @@ app.use(
 app.use(passport.initialize())
 
 app.get('/', checkAuthenticated, (req, res) => {
-    res.render('index.ejs', { name: 'Shaurya' })
+    res.render('index.ejs', { name: 'koushikpuppala' })
 })
 
 app.get('/login', (req, res) => {
